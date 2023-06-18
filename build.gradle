@@ -10,18 +10,18 @@ repositories {
 }
 
 dependencies {
-    // embedded tomcat
-    implementation 'org.apache.tomcat.embed:tomcat-embed-core:8.5.42'
+    implementation 'org.apache.tomcat.embed:tomcat-embed-core:8.5.42'// embedded tomcat
     implementation 'org.apache.tomcat.embed:tomcat-embed-jasper:8.5.42'
 
-    // logback-classic
-    implementation 'ch.qos.logback:logback-classic:1.2.3'
+    implementation 'javax.servlet:jstl:1.2'// jsp jstl
+    implementation 'javax.servlet:javax.servlet-api:4.0.1'// servlet (tomcat execute)
+
+    implementation 'ch.qos.logback:logback-classic:1.2.3'// logback-classic
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
     testImplementation 'org.junit.jupiter:junit-jupiter-params:5.8.2'
     testImplementation 'org.mockito:mockito-core:3.12.4'
-
     testImplementation 'org.assertj:assertj-core:3.23.1'
 }
 
