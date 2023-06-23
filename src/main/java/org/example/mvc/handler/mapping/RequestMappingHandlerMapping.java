@@ -1,6 +1,9 @@
 package org.example.mvc.handler.mapping;
 
-import org.example.mvc.controller.*;
+import org.example.mvc.controller.Controller;
+import org.example.mvc.controller.ForwardController;
+import org.example.mvc.controller.UserCreateController;
+import org.example.mvc.controller.UserListController;
 import org.example.mvc.enums.RequestMethod;
 
 import java.util.HashMap;
